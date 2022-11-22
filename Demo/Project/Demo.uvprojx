@@ -177,7 +177,7 @@
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M4"</AdsCpuType>
             <RvctDeviceName></RvctDeviceName>
-            <mOS>0</mOS>
+            <mOS>1</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
             <hadIROM>1</hadIROM>
@@ -315,7 +315,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>5</Optim>
+            <Optim>4</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -331,7 +331,7 @@
             <uGnu>1</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
-            <v6LangP>5</v6LangP>
+            <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\FWLIB\Include;..\FWLIB\Source;..\Modules</IncludePath>
+              <IncludePath>..\CMSIS;..\FWLIB\Include;..\FWLIB\Source;..\Modules;..\CMSIS\DSP_1.14.2\Include;..\CMSIS\DSP_1.14.2\Include\dsp;..\CMSIS\DSP_1.14.2\PrivateInclude</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -523,27 +523,194 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>DSP</GroupName>
+          <Files>
+            <File>
+              <FileName>arm_math.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Include\arm_math.h</FilePath>
+            </File>
+            <File>
+              <FileName>BasicMathFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\BasicMathFunctions\BasicMathFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>BasicMathFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\BasicMathFunctions\BasicMathFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>BayesFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\BayesFunctions\BayesFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>BayesFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\BayesFunctions\BayesFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>CommonTables.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\CommonTables\CommonTables.c</FilePath>
+            </File>
+            <File>
+              <FileName>CommonTablesF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\CommonTables\CommonTablesF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>ComplexMathFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\ComplexMathFunctions\ComplexMathFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>ComplexMathFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\ComplexMathFunctions\ComplexMathFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>ControllerFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\ControllerFunctions\ControllerFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>DistanceFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\DistanceFunctions\DistanceFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>DistanceFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\DistanceFunctions\DistanceFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>FastMathFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\FastMathFunctions\FastMathFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>FastMathFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\FastMathFunctions\FastMathFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>FilteringFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\FilteringFunctions\FilteringFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>FilteringFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\FilteringFunctions\FilteringFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>InterpolationFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\InterpolationFunctions\InterpolationFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>InterpolationFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\InterpolationFunctions\InterpolationFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>MatrixFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\MatrixFunctions\MatrixFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>MatrixFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\MatrixFunctions\MatrixFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>QuaternionMathFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\QuaternionMathFunctions\QuaternionMathFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>StatisticsFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\StatisticsFunctions\StatisticsFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>StatisticsFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\StatisticsFunctions\StatisticsFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>SupportFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\SupportFunctions\SupportFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>SupportFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\SupportFunctions\SupportFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>SVMFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\SVMFunctions\SVMFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>SVMFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\SVMFunctions\SVMFunctionsF16.c</FilePath>
+            </File>
+            <File>
+              <FileName>TransformFunctions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\TransformFunctions\TransformFunctions.c</FilePath>
+            </File>
+            <File>
+              <FileName>TransformFunctionsF16.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CMSIS\DSP_1.14.2\Source\TransformFunctions\TransformFunctionsF16.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>Modules</GroupName>
           <Files>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Modules\main.cpp</FilePath>
+            </File>
             <File>
               <FileName>gd32f30x_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Modules\gd32f30x_it.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Modules\main.c</FilePath>
-            </File>
-            <File>
               <FileName>systick.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Modules\systick.c</FilePath>
             </File>
+            <File>
+              <FileName>Delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Modules\Delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>IIC_Software_GD.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Modules\IIC_Software_GD.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SPI_Software_GD.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Modules\SPI_Software_GD.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>UART_GD.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Modules\UART_GD.cpp</FilePath>
+            </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -551,21 +718,57 @@
 
   <RTE>
     <apis/>
-    <components>
-      <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="5.6.0" condition="ARMv6_7_8-M Device">
+    <components/>
+    <files>
+      <file attr="config" category="source" name="CMSIS\RTOS2\RTX\Config\RTX_Config.c" version="5.1.1">
+        <instance index="0" removed="1">RTE\CMSIS\RTX_Config.c</instance>
+        <component Capiversion="2.1.3" Cclass="CMSIS" Cgroup="RTOS2" Csub="Keil RTX5" Cvariant="Library" Cvendor="ARM" Cversion="5.5.4" condition="RTOS2 RTX5"/>
         <package name="CMSIS" schemaVersion="1.7.7" url="http://www.keil.com/pack/" vendor="ARM" version="5.9.0"/>
-        <targetInfos>
-          <targetInfo name="Demo"/>
-        </targetInfos>
-      </component>
-      <component Cclass="CMSIS" Cgroup="DSP" Cvariant="Source" Cvendor="ARM" Cversion="1.10.0" condition="CMSIS DSP">
+        <targetInfos/>
+      </file>
+      <file attr="config" category="header" name="CMSIS\RTOS2\RTX\Config\RTX_Config.h" version="5.5.2">
+        <instance index="0" removed="1">RTE\CMSIS\RTX_Config.h</instance>
+        <component Capiversion="2.1.3" Cclass="CMSIS" Cgroup="RTOS2" Csub="Keil RTX5" Cvariant="Library" Cvendor="ARM" Cversion="5.5.4" condition="RTOS2 RTX5"/>
         <package name="CMSIS" schemaVersion="1.7.7" url="http://www.keil.com/pack/" vendor="ARM" version="5.9.0"/>
-        <targetInfos>
-          <targetInfo name="Demo"/>
-        </targetInfos>
-      </component>
-    </components>
-    <files/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_can.c" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\gd32f30x_can.c</instance>
+        <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="CAN" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_misc.c" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\gd32f30x_misc.c</instance>
+        <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="MISC" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x CMSIS"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_pmu.c" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\gd32f30x_pmu.c</instance>
+        <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="PMU" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS RCU"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Device\Firmware\Peripherals\src\gd32f30x_rcu.c" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\gd32f30x_rcu.c</instance>
+        <component Cclass="Device" Cgroup="GD32F30x_StdPeripherals" Csub="RCU" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30x STDPERIPHERALS MISC"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" condition="Compiler ARMCC" name="Device\Source\ARM\startup_gd32f30x_hd.s" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\startup_gd32f30x_hd.s</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30xHD"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+      <file attr="config" category="source" name="Device\Source\system_gd32f30x.c" version="2.2.0">
+        <instance index="0" removed="1">RTE\Device\GD32F303CC\system_gd32f30x.c</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="GigaDevice" Cversion="2.2.0" condition="GD32F30xHD"/>
+        <package name="GD32F30x_DFP" schemaVersion="1.1" url="https://gd32mcu.com/data/documents/pack/" vendor="GigaDevice" version="2.2.1"/>
+        <targetInfos/>
+      </file>
+    </files>
   </RTE>
 
   <LayerInfo>

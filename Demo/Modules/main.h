@@ -37,12 +37,24 @@ OF SUCH DAMAGE.
 
 #ifndef MAIN_H
 #define MAIN_H
+#define GD32_LIB
+#include "gd32f30x.h"
+#ifdef __cplusplus
+extern "C"
+{
+#endif
 
 #define LED_PIN                         GPIO_PIN_13
 #define LED_GPIO_PORT                   GPIOC
 #define LED_GPIO_CLK                    RCU_GPIOC
+	
+void TIMER2_IRQHandler(void);
+void DMA0_Channel1_IRQHandler(void);
+void DMA0_Channel2_IRQHandler(void);
+void USART2_IRQHandler(void);
 
-/* led spark function */
-void led_spark(void);
 
+#ifdef __cplusplus
+}
+#endif
 #endif /* MAIN_H */
