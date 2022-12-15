@@ -1,28 +1,42 @@
 /*********************************************************************************
   *FileName:	UART_GD.h
   *Author:  	qianwan
-  *Version:  	1.0
-  *Date:  		2022/11/21
+  *Version:  	1.2
+  *Date:  		2022/11/24
   *Description: GD32 串口发送基类
-  *Other:		使用宏定义开启DMA收发
-  *Other:		使用DMA发送时，还需额外在发送DMA的中断函数内调用Transmit_IRQ函数
-  *Other:		使用DMA接收时，还需额外在接收DMA的中断函数、串口中断函数内调用Recieve_IRQ()函数
+  *Other:		使用宏定义开启DMA收发与DMA内存搬运
+				//////////////////////////////////////////////////////////////////
+			**	UART_USE_TX_DMA == 1时开启发送DMA
+				
+				DMA发送需要在接收DMA的DMAx_IRQHandler函数中调用Transmit_IRQ
+				//////////////////////////////////////////////////////////////////
+			**	UART_USE_RX_DMA == 1时开启接收DMA
+				
+				UART_TX_DMA_M2M == 0时为普通DMA接收模式
+				普通接受使用CPU搬运数据，适合小于168字节的接收，以降低操作开销
+				普通接受需要在相应串口的USARTx_IRQHandler函数中调用Recieve_IRQ
+				
+				UART_TX_DMA_M2M == 1时使能内存搬运接收
+				内存搬运使用DMA搬运数据，适合大于168字节的接收以降低CPU使用率;内存搬运会引发约3us的数据接收延迟
+				内存搬运接收需要在相应串口的USARTx_IRQHandler函数以及接收DMA的DMAx_IRQHandler函数中调用Recieve_IRQ
 **********************************************************************************/
 #ifndef UART_GD_H
 #define UART_GD_H
 #include <main.h>
+#include <string.h>
 #include "Delay.h"
 
-/*******开启DMA收发********/
+/*******开启DMA收发*****s***/
 #define UART_USE_RX_DMA 1
 #define UART_USE_TX_DMA 1
+#define UART_TX_DMA_M2M 1
 /********1开**0关**********/
 
 /********其他参数**********/
 //接收缓冲区长度 也是最大接受长度
-#define RX_BUF_LEN 64
+#define RX_BUF_LEN 1024
 //每个Byte的超时时间
-#define TIME_OVER_US 500
+#define UART_TIME_OVER_TIME 500
 /**************************/
 #ifdef __cplusplus
 
@@ -38,7 +52,8 @@ class cUART
 	uint16_t Transmit(uint8_t *DT,uint16_t num,uint32_t OVT);
 	uint16_t Recieve(uint8_t *DT,uint16_t num,uint32_t OVT);
 
-	void Delay(uint16_t us);
+	virtual inline void Delay(void)
+	{qDelay_us(1);}
 	
 	/*没有使用DMA*/
 	#if !(UART_USE_RX_DMA||UART_USE_TX_DMA)
@@ -59,7 +74,6 @@ class cUART
 		this->DMA_CHt = DMA_CHt;
 		usart_enable(this->UART);
 	}
-
 
 	/*仅使用DMA接收*/
 	#elif (UART_USE_TX_DMA==0)&&(UART_USE_RX_DMA==1)
@@ -120,10 +134,9 @@ class cUART
 	uint16_t Recieve_DMA(uint8_t *pData, uint16_t length);
 	inline uint8_t Recieve_IRQ(void)
 	{ 
+		//溢出错误清楚
 		if(usart_interrupt_flag_get(this->UART,USART_INT_FLAG_RBNE_ORERR))
-		{
-			usart_interrupt_flag_clear(this->UART,USART_INT_FLAG_RBNE_ORERR);
-		}
+		{usart_interrupt_flag_clear(this->UART,USART_INT_FLAG_RBNE_ORERR);}
 		if(usart_interrupt_flag_get(this->UART,USART_INT_FLAG_IDLE))
 		{
 			/*停止DMA传输*/
@@ -132,6 +145,8 @@ class cUART
 			usart_interrupt_disable(this->UART,USART_INT_IDLE);
 			/*统计传输数量*/
 			this->Recieve_Length = RX_BUF_LEN - dma_transfer_number_get(this->DMAr,this->DMA_CHr);
+			
+			#if (UART_TX_DMA_M2M==1)		
 			/*设置M2M的DMA*/
 			dma_periph_increase_enable(this->DMAr,this->DMA_CHr);
 			dma_memory_to_memory_enable(this->DMAr,this->DMA_CHr);
@@ -143,13 +158,17 @@ class cUART
 			dma_interrupt_enable(this->DMAr,this->DMA_CHr,DMA_INT_FTF);
 			/*开始传输*/
 			dma_channel_enable(this->DMAr,this->DMA_CHr);
+			#else
+			memcpy(this->pRX_Data,this->pRX_BUF,(this->Recieve_Length>this->Target_Length)?this->Target_Length:this->Recieve_Length);
+			#endif
+
 			/*双缓冲区交换*/
 			this->pRX_BUF = (this->pRX_BUF==this->RX_BUF0)?this->RX_BUF1:this->RX_BUF0;
 			/*清除IDLE中断标志*/
 			usart_interrupt_flag_clear(this->UART,USART_INT_FLAG_IDLE);
-			
 			return 1;
 		}
+		#if (UART_TX_DMA_M2M==1)	
 		else if(dma_interrupt_flag_get(this->DMAr,this->DMA_CHr,DMA_INT_FLAG_FTF))
 		{
 			/*停止DMA传输*/
@@ -160,12 +179,11 @@ class cUART
 			dma_interrupt_flag_clear(this->DMAr,this->DMA_CHr,DMA_INT_FLAG_FTF);
 			return 2;
 		}
+		#endif
 		return 0;
 	}
 	#endif
 };
-inline void cUART::Delay(uint16_t us)
-{qDelay_us(us);}
 #endif
 
 #endif

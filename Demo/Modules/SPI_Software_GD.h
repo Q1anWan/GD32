@@ -2,7 +2,7 @@
   *FileName:	SPI_Software.h
   *Author:  	qianwan
   *Version:  	1.4
-  *Date:  		2022/10/19
+  *Date:  		2022/11/21
   *Description: 软件SPI的基类，提供软件SPI的基本方法
   *Other:		IO电平读写使用内联函数
 **********************************************************************************/

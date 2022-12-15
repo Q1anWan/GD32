@@ -315,7 +315,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>4</Optim>
+            <Optim>5</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -701,9 +701,9 @@
               <FilePath>..\Modules\IIC_Software_GD.cpp</FilePath>
             </File>
             <File>
-              <FileName>SPI_Software_GD.cpp</FileName>
+              <FileName>SPI_GD.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>..\Modules\SPI_Software_GD.cpp</FilePath>
+              <FilePath>..\Modules\SPI_GD.cpp</FilePath>
             </File>
             <File>
               <FileName>UART_GD.cpp</FileName>
