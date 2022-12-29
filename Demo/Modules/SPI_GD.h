@@ -62,13 +62,13 @@ class cSPI
 	dma_channel_enum DMA_CHt;
 	public:
 	void SPI_Init(uint32_t SPI, uint32_t CS_Port, uint32_t CS_Pin,
-				  uint32_t DMAt,dma_channel_enum DMA_CHt)
+				  uint32_t DMA,dma_channel_enum DMA_CH)
 	{
 		this->SPI = SPI;
 		this->CS_Port = CS_Port;
 		this->CS_Pin = CS_Pin;
-		this->DMAt = DMAt;
-		this->DMA_CHt = DMA_CHt;
+		this->DMAt = DMA;
+		this->DMA_CHt = DMA_CH;
 		spi_enable(this->SPI);
 		this->CS_1();
 		
@@ -83,13 +83,13 @@ class cSPI
 	dma_channel_enum DMA_CHr;
 	public:
 	void SPI_Init(uint32_t SPI, uint32_t CS_Port, uint32_t CS_Pin,
-				  uint32_t DMAr,dma_channel_enum DMA_CHr)
+				  uint32_t DMA,dma_channel_enum DMA_CH)
 	{
 		this->SPI = SPI;
 		this->CS_Port = CS_Port;
 		this->CS_Pin = CS_Pin;
-		this->DMAr = DMAr;
-		this->DMA_CHr = DMA_CHr;
+		this->DMAr = DMA;
+		this->DMA_CHr = DMA_CH;
 		spi_enable(this->SPI);
 		this->CS_1();
 	}
