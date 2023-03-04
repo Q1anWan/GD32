@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\FWLIB\Include;..\FWLIB\Source;..\..\Demo\Modules;..\CMSIS\DSP_1.14.2\Include;..\CMSIS\DSP_1.14.2\Include\dsp;..\CMSIS\DSP_1.14.2\PrivateInclude</IncludePath>
+              <IncludePath>..\CMSIS;..\FWLIB\Include;..\FWLIB\Source;..\Modules;..\CMSIS\DSP_1.14.2\Include;..\CMSIS\DSP_1.14.2\Include\dsp;..\CMSIS\DSP_1.14.2\PrivateInclude</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -713,12 +713,12 @@
             <File>
               <FileName>Data_Exchange.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Demo\Modules\Data_Exchange.c</FilePath>
+              <FilePath>..\Modules\Data_Exchange.c</FilePath>
             </File>
             <File>
               <FileName>QCS_Lite.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Demo\Modules\QCS_Lite.c</FilePath>
+              <FilePath>..\Modules\QCS_Lite.c</FilePath>
             </File>
           </Files>
         </Group>

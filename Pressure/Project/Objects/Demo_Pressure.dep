@@ -2,12 +2,12 @@ Dependencies for Project 'Demo', Target 'Pressure': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
 F (..\CMSIS\system_gd32f30x.c)(0x63D6A7D8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/system_gd32f30x.o -MD)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -38,12 +38,12 @@ F (..\CMSIS\startup_gd32f30x_hd.s)(0x6377BBBA)(--target=arm-arm-none-eabi -mcpu=
 F (..\FWLIB\Source\gd32f30x_adc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_adc.o -MD)
 I (..\FWLIB\Include\gd32f30x_adc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -72,12 +72,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_bkp.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_bkp.o -MD)
 I (..\FWLIB\Include\gd32f30x_bkp.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -106,12 +106,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_can.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_can.o -MD)
 I (..\FWLIB\Include\gd32f30x_can.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -141,12 +141,12 @@ I (D:\Software\KEIL\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
 F (..\FWLIB\Source\gd32f30x_crc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_crc.o -MD)
 I (..\FWLIB\Include\gd32f30x_crc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -175,12 +175,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_ctc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_ctc.o -MD)
 I (..\FWLIB\Include\gd32f30x_ctc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -209,12 +209,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_dac.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_dac.o -MD)
 I (..\FWLIB\Include\gd32f30x_dac.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -243,12 +243,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_dbg.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_dbg.o -MD)
 I (..\FWLIB\Include\gd32f30x_dbg.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -277,12 +277,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_dma.c)(0x637CDB28)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_dma.o -MD)
 I (..\FWLIB\Include\gd32f30x_dma.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -312,12 +312,12 @@ I (D:\Software\KEIL\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
 F (..\FWLIB\Source\gd32f30x_enet.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_enet.o -MD)
 I (..\FWLIB\Include\gd32f30x_enet.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -347,12 +347,12 @@ I (D:\Software\KEIL\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
 F (..\FWLIB\Source\gd32f30x_exmc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_exmc.o -MD)
 I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -381,12 +381,12 @@ I (..\FWLIB\Include\gd32f30x_enet.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_exti.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_exti.o -MD)
 I (..\FWLIB\Include\gd32f30x_exti.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -415,12 +415,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_fmc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_fmc.o -MD)
 I (..\FWLIB\Include\gd32f30x_fmc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -449,12 +449,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_fwdgt.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_fwdgt.o -MD)
 I (..\FWLIB\Include\gd32f30x_fwdgt.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -483,12 +483,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_gpio.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_gpio.o -MD)
 I (..\FWLIB\Include\gd32f30x_gpio.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -517,12 +517,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_i2c.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_i2c.o -MD)
 I (..\FWLIB\Include\gd32f30x_i2c.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -551,12 +551,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_misc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_misc.o -MD)
 I (..\FWLIB\Include\gd32f30x_misc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -585,12 +585,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_pmu.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_pmu.o -MD)
 I (..\FWLIB\Include\gd32f30x_pmu.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -619,12 +619,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_rcu.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_rcu.o -MD)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_adc.h)(0x6377BBB8)
@@ -653,12 +653,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_rtc.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_rtc.o -MD)
 I (..\FWLIB\Include\gd32f30x_rtc.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -687,12 +687,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_sdio.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_sdio.o -MD)
 I (..\FWLIB\Include\gd32f30x_sdio.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -721,12 +721,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_spi.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_spi.o -MD)
 I (..\FWLIB\Include\gd32f30x_spi.h)(0x637E7240)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -755,12 +755,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_timer.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_timer.o -MD)
 I (..\FWLIB\Include\gd32f30x_timer.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -789,12 +789,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_usart.c)(0x637CFBC0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_usart.o -MD)
 I (..\FWLIB\Include\gd32f30x_usart.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -823,12 +823,12 @@ I (..\FWLIB\Include\gd32f30x_exmc.h)(0x6377BBB8)
 F (..\FWLIB\Source\gd32f30x_wwdgt.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_wwdgt.o -MD)
 I (..\FWLIB\Include\gd32f30x_wwdgt.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -859,9 +859,9 @@ F (..\CMSIS\DSP_1.14.2\Source\BasicMathFunctions\BasicMathFunctions.c)(0x6364655
 I (..\CMSIS\DSP_1.14.2\Source\BasicMathFunctions\arm_abs_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\basic_math_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -932,9 +932,9 @@ I (..\CMSIS\DSP_1.14.2\Source\BasicMathFunctions\arm_abs_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\basic_math_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -954,9 +954,9 @@ F (..\CMSIS\DSP_1.14.2\Source\BayesFunctions\BayesFunctions.c)(0x6364655A)(-xc -
 I (..\CMSIS\DSP_1.14.2\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\bayes_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -972,9 +972,9 @@ I (..\CMSIS\DSP_1.14.2\Source\BayesFunctions\arm_gaussian_naive_bayes_predict_f1
 I (..\CMSIS\DSP_1.14.2\Include\dsp\bayes_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -990,9 +990,9 @@ I (..\CMSIS\DSP_1.14.2\Include\dsp\basic_math_functions.h)(0x6364655A)
 F (..\CMSIS\DSP_1.14.2\Source\CommonTables\CommonTables.c)(0x6364655A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/commontables.o -MD)
 I (..\CMSIS\DSP_1.14.2\Source\CommonTables\arm_common_tables.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1012,9 +1012,9 @@ F (..\CMSIS\DSP_1.14.2\Source\CommonTables\CommonTablesF16.c)(0x6364655A)(-xc -s
 I (..\CMSIS\DSP_1.14.2\Source\CommonTables\arm_common_tables_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1034,9 +1034,9 @@ F (..\CMSIS\DSP_1.14.2\Source\ComplexMathFunctions\ComplexMathFunctions.c)(0x636
 I (..\CMSIS\DSP_1.14.2\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\complex_math_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1072,9 +1072,9 @@ I (..\CMSIS\DSP_1.14.2\Source\ComplexMathFunctions\arm_cmplx_conj_f16.c)(0x63646
 I (..\CMSIS\DSP_1.14.2\Include\dsp\complex_math_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1094,9 +1094,9 @@ F (..\CMSIS\DSP_1.14.2\Source\ControllerFunctions\ControllerFunctions.c)(0x63646
 I (..\CMSIS\DSP_1.14.2\Source\ControllerFunctions\arm_pid_init_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\controller_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1118,9 +1118,9 @@ F (..\CMSIS\DSP_1.14.2\Source\DistanceFunctions\DistanceFunctions.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Source\DistanceFunctions\arm_boolean_distance.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\distance_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1159,9 +1159,9 @@ I (..\CMSIS\DSP_1.14.2\Source\DistanceFunctions\arm_braycurtis_distance_f16.c)(0
 I (..\CMSIS\DSP_1.14.2\Include\dsp\distance_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1186,9 +1186,9 @@ F (..\CMSIS\DSP_1.14.2\Source\FastMathFunctions\FastMathFunctions.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Source\FastMathFunctions\arm_cos_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\fast_math_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1222,9 +1222,9 @@ I (..\CMSIS\DSP_1.14.2\Source\FastMathFunctions\arm_vexp_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\fast_math_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1246,9 +1246,9 @@ F (..\CMSIS\DSP_1.14.2\Source\FilteringFunctions\FilteringFunctions.c)(0x6364655
 I (..\CMSIS\DSP_1.14.2\Source\FilteringFunctions\arm_biquad_cascade_df1_32x64_init_q31.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\filtering_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1368,9 +1368,9 @@ I (..\CMSIS\DSP_1.14.2\Source\FilteringFunctions\arm_fir_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\filtering_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1391,9 +1391,9 @@ F (..\CMSIS\DSP_1.14.2\Source\InterpolationFunctions\InterpolationFunctions.c)(0
 I (..\CMSIS\DSP_1.14.2\Source\InterpolationFunctions\arm_bilinear_interp_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\interpolation_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1415,9 +1415,9 @@ I (..\CMSIS\DSP_1.14.2\Source\InterpolationFunctions\arm_bilinear_interp_f16.c)(
 I (..\CMSIS\DSP_1.14.2\Include\dsp\interpolation_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1430,9 +1430,9 @@ F (..\CMSIS\DSP_1.14.2\Source\MatrixFunctions\MatrixFunctions.c)(0x6364655A)(-xc
 I (..\CMSIS\DSP_1.14.2\Source\MatrixFunctions\arm_mat_add_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\matrix_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1498,9 +1498,9 @@ I (..\CMSIS\DSP_1.14.2\Source\MatrixFunctions\arm_mat_add_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\matrix_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1531,9 +1531,9 @@ F (..\CMSIS\DSP_1.14.2\Source\QuaternionMathFunctions\QuaternionMathFunctions.c)
 I (..\CMSIS\DSP_1.14.2\Source\QuaternionMathFunctions\arm_quaternion_norm_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\quaternion_math_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1552,9 +1552,9 @@ F (..\CMSIS\DSP_1.14.2\Source\StatisticsFunctions\StatisticsFunctions.c)(0x63646
 I (..\CMSIS\DSP_1.14.2\Source\StatisticsFunctions\arm_entropy_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\statistics_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1642,9 +1642,9 @@ I (..\CMSIS\DSP_1.14.2\Source\StatisticsFunctions\arm_max_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\statistics_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1678,9 +1678,9 @@ F (..\CMSIS\DSP_1.14.2\Source\SupportFunctions\SupportFunctions.c)(0x6364655A)(-
 I (..\CMSIS\DSP_1.14.2\Source\SupportFunctions\arm_barycenter_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\support_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1750,9 +1750,9 @@ I (..\CMSIS\DSP_1.14.2\Source\SupportFunctions\arm_copy_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\support_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1773,9 +1773,9 @@ F (..\CMSIS\DSP_1.14.2\Source\SVMFunctions\SVMFunctions.c)(0x6364655A)(-xc -std=
 I (..\CMSIS\DSP_1.14.2\Source\SVMFunctions\arm_svm_linear_init_f32.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\svm_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1796,9 +1796,9 @@ I (..\CMSIS\DSP_1.14.2\Source\SVMFunctions\arm_svm_linear_init_f16.c)(0x6364655A
 I (..\CMSIS\DSP_1.14.2\Include\dsp\svm_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1818,9 +1818,9 @@ F (..\CMSIS\DSP_1.14.2\Source\TransformFunctions\TransformFunctions.c)(0x6364655
 I (..\CMSIS\DSP_1.14.2\Source\TransformFunctions\arm_bitreversal.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\transform_functions.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1884,9 +1884,9 @@ I (..\CMSIS\DSP_1.14.2\Source\TransformFunctions\arm_cfft_f16.c)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\dsp\transform_functions_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types_f16.h)(0x6364655A)
 I (..\CMSIS\DSP_1.14.2\Include\arm_math_types.h)(0x6364655A)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\string.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\math.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\float.h)(0x63884908)
@@ -1917,14 +1917,14 @@ I (..\CMSIS\DSP_1.14.2\Source\TransformFunctions\arm_cfft_radix2_init_f16.c)(0x6
 I (..\CMSIS\DSP_1.14.2\Source\TransformFunctions\arm_cfft_radix4_init_f16.c)(0x6364655A)
 F (..\Modules\main.cpp)(0x63D6A961)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/main.o -MD)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\__config)(0x63884902)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2126,12 +2126,12 @@ I (..\Modules\UART_GD.h)(0x63D6A2BA)
 F (..\Modules\gd32f30x_it.c)(0x6377BBB8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/gd32f30x_it.o -MD)
 I (..\Modules\gd32f30x_it.h)(0x6377BBB8)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2162,12 +2162,12 @@ I (..\Modules\main.h)(0x63D699EC)
 I (..\Modules\systick.h)(0x6377BBB8)
 F (..\Modules\systick.c)(0x6379E9B9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../CMSIS -I ../FWLIB/Include -I ../FWLIB/Source -I ../Modules -I ../CMSIS/DSP_1.14.2/Include -I ../CMSIS/DSP_1.14.2/Include/dsp -I ../CMSIS/DSP_1.14.2/PrivateInclude-ID:/Software/KEIL/ARM/RV31/Inc-ID:/Software/KEIL/GigaDevice/GD32F30x_DFP/2.2.1/Device/Include-ID:/Software/KEIL/ARM/CMSIS/Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./objects/systick.o -MD)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2199,12 +2199,12 @@ F (..\Modules\Delay.c)(0x63D54969)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu
 I (..\Modules\Delay.h)(0x63D54971)
 I (..\Modules\main.h)(0x63D699EC)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2235,14 +2235,14 @@ F (..\Modules\IIC_Software_GD.cpp)(0x637E2BDB)(-xc++ -std=c++11 --target=arm-arm
 I (..\Modules\IIC_Software_GD.h)(0x637A1315)
 I (..\Modules\main.h)(0x63D699EC)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\__config)(0x63884902)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2274,14 +2274,14 @@ F (..\Modules\SPI_GD.cpp)(0x63D680AB)(-xc++ -std=c++11 --target=arm-arm-none-eab
 I (..\Modules\SPI_GD.h)(0x63D680DE)
 I (..\Modules\main.h)(0x63D699EC)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\__config)(0x63884902)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)
@@ -2313,14 +2313,14 @@ F (..\Modules\UART_GD.cpp)(0x63D691BB)(-xc++ -std=c++11 --target=arm-arm-none-ea
 I (..\Modules\UART_GD.h)(0x63D6A2BA)
 I (..\Modules\main.h)(0x63D699EC)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\gd32f30x.h)(0x61AEC52A)
-I (..\CMSIS\core_cm4.h)(0x626F4ADE)
+I (..\CMSIS\core_cm4.h)(0x63D7D9F3)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63884908)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\libcxx\__config)(0x63884902)
 I (D:\Software\KEIL\ARM\ARMCLANG\include\stdint.h)(0x63884908)
 I (..\CMSIS\cmsis_version.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_compiler.h)(0x626F4ADE)
-I (..\CMSIS\cmsis_armclang.h)(0x626F4ADE)
-I (..\CMSIS\mpu_armv7.h)(0x626F4ADE)
+I (..\CMSIS\cmsis_compiler.h)(0x63D7D9F3)
+I (..\CMSIS\cmsis_armclang.h)(0x63D7D9F3)
+I (..\CMSIS\mpu_armv7.h)(0x63D7D9F3)
 I (D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h)(0x61AEC52A)
 I (..\Modules\gd32f30x_libopt.h)(0x6377BBB8)
 I (..\FWLIB\Include\gd32f30x_rcu.h)(0x6377BBB8)

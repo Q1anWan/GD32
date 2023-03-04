@@ -6,7 +6,7 @@
   ..\CMSIS\cmsis_version.h ..\CMSIS\cmsis_compiler.h \
   ..\CMSIS\cmsis_armclang.h ..\CMSIS\mpu_armv7.h \
   D:\Software\KEIL\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include\system_gd32f30x.h \
-  ..\..\Demo\Modules\gd32f30x_libopt.h ..\FWLIB\Include\gd32f30x_rcu.h \
+  ..\Modules\gd32f30x_libopt.h ..\FWLIB\Include\gd32f30x_rcu.h \
   ..\FWLIB\Include\gd32f30x_adc.h ..\FWLIB\Include\gd32f30x_can.h \
   ..\FWLIB\Include\gd32f30x_crc.h ..\FWLIB\Include\gd32f30x_ctc.h \
   ..\FWLIB\Include\gd32f30x_dac.h ..\FWLIB\Include\gd32f30x_dbg.h \

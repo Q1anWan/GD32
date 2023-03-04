@@ -1,0 +1,15 @@
+--cpu=Cortex-M23
+".\objects\system_gd32e23x.o"
+".\objects\gd32e23x_spi.o"
+".\objects\gd32e23x_gpio.o"
+".\objects\gd32e23x_rcu.o"
+".\objects\gd32e23x_usart.o"
+".\objects\flashprg.o"
+".\objects\flashdev.o"
+".\objects\bsp_spi.o"
+".\objects\spi_flash.o"
+".\objects\bsp_uart.o"
+--strict --scatter ".\Target.lin"
+--diag_suppress L6305 --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GD32E230_W25QXX.map" -o .\Objects\GD32E230_W25QXX.axf

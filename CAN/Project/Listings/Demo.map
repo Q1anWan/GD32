@@ -6483,7 +6483,7 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        204          0          0          0          0      15546   basicmathfunctions.o
-       720          0          0         24          0       2590   data_exchange.o
+       720          0          0         24          0       2574   data_exchange.o
        256          0          0          0          4       1310   delay.o
       1824          4          0          0          0      11102   gd32f30x_can.o
        388          0          0          0          0       5313   gd32f30x_gpio.o
@@ -6492,13 +6492,13 @@ Image component sizes
        120          0          0          0          0      10694   gd32f30x_rcu.o
        596          0          0          0          0      16381   gd32f30x_timer.o
       1058          0          0          8         81      22321   main.o
-       518          4          0          0          0       2557   qcs_lite.o
+       518          4          0          0          0       2541   qcs_lite.o
         64         26        304          0       2048        896   startup_gd32f30x_hd.o
        604          0          0          0          0       2525   system_gd32f30x.o
         32          0          0          0          4       3929   systick.o
 
     ----------------------------------------------------------------------
-      6782         34        336         32       2144      99097   Object Totals
+      6782         34        336         32       2144      99065   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         40          0          0          0          7          0   (incl. Padding)
 
@@ -6560,8 +6560,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      8488        198        336         32       2240      99909   Grand Totals
-      8488        198        336         32       2240      99909   ELF Image Totals
+      8488        198        336         32       2240      99877   Grand Totals
+      8488        198        336         32       2240      99877   ELF Image Totals
       8488        198        336         32          0          0   ROM Totals
 
 ==============================================================================

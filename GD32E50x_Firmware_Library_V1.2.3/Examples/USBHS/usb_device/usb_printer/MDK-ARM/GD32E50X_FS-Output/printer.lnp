@@ -1,0 +1,25 @@
+--cpu=Cortex-M33
+".\gd32e50x_fs-output\app.o"
+".\gd32e50x_fs-output\gd32e50x_hw.o"
+".\gd32e50x_fs-output\gd32e50x_it.o"
+".\gd32e50x_fs-output\system_gd32e50x.o"
+".\gd32e50x_fs-output\gd32e50x_exti.o"
+".\gd32e50x_fs-output\gd32e50x_gpio.o"
+".\gd32e50x_fs-output\gd32e50x_misc.o"
+".\gd32e50x_fs-output\gd32e50x_pmu.o"
+".\gd32e50x_fs-output\gd32e50x_rcu.o"
+".\gd32e50x_fs-output\gd32e50x_timer.o"
+".\gd32e50x_fs-output\gd32e50x_usart.o"
+".\gd32e50x_fs-output\gd32e507z_eval.o"
+".\gd32e50x_fs-output\startup_gd32e50x_hd.o"
+".\gd32e50x_fs-output\drv_usb_core.o"
+".\gd32e50x_fs-output\drv_usb_dev.o"
+".\gd32e50x_fs-output\drv_usbd_int.o"
+".\gd32e50x_fs-output\usbd_core.o"
+".\gd32e50x_fs-output\usbd_enum.o"
+".\gd32e50x_fs-output\usbd_transc.o"
+".\gd32e50x_fs-output\printer_core.o"
+--library_type=microlib --strict --scatter ".\GD32E50X_FS-Output\printer.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\GD32E50X_FS-List\printer.map" -o .\GD32E50X_FS-Output\printer.axf
